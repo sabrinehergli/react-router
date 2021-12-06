@@ -1,0 +1,129 @@
+.MainCard {
+  color: #fff;
+  width: 560px;
+  height: 390px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  background: #00c9ff;
+  background: -webkit-linear-gradient(to right, #5a32a3, #00c9ff);
+  background: -webkit-linear-gradient(left, #633655, #00c9ff);
+  background: -o-linear-gradient(left, #ae7cbb, #00c9ff);
+  background: linear-gradient(to right, #a94fbb, #00c9ff);
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.CardLeft {
+  width: 260px;
+}
+
+.CardDatails {
+  width: 90%;
+  padding: 30px;
+  margin-top: -25px;
+}
+.CardDatails h1 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.CardRight img {
+  height: 390px;
+  width: 100%;
+
+  border-radius: 2px;
+}
+.CardRight {
+  border-radius: 2px;
+  width: 300px;
+}
+
+.Info {
+  font-weight: 100;
+  line-height: 27px;
+  max-width: 50px;
+}
+
+.Download {
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: 10px;
+  background: #021e39;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 300ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.Wrapper:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+  cursor: pointer;
+}
+@media only screen and (max-width: 860px) {
+  .MainCard {
+    width: 280px;
+    display: flex;
+    height: 250px;
+  }
+  .Wrapper {
+    display: flex;
+  }
+  .CardLeft {
+    width: 100%;
+    height: 100%;
+  }
+  .CardRight {
+    width: 140px;
+  }
+  .CardRight img {
+    width: 140px;
+    height: 250px;
+  }
+  .CardDatails {
+    height: 250px;
+    padding: 0;
+    margin-top: 0px;
+    display: block;
+    margin: 10px;
+  }
+  .CardDatails h1 {
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .Disc {
+    line-height: 15px;
+    height: 100px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .Download {
+    margin: 10px;
+    font-size: 8px;
+
+    width: 70px;
+    height: 30px;
+  }
+  .Stars {
+    margin-top: 10px;
+  }
+  .Stars span {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.video {
+  width: 590px;
+  height: 315px;
+}
+.trailer {
+  width: 60%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 100px;
+  background-color: #022546;
+  text-align: center;
+  border-radius: 6px;
+}
+@media only screen and (max-width: 1200px) {
+  .video {
+    width: 90%;
+    height: 45%;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .trailer {
+    width: 80%;
+  }
+  .video {
+    width: 80%;
+    height: 40%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .video {
+    width: 90%;
+    height: 45%;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .video {
+    width: 90%;
+    height: 40%;
+  }
+  .trailer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .trailer {
+    width: 100%;
+  }
+  .video {
+    width: 90%;
+    height: 30%;
+  }
+}
